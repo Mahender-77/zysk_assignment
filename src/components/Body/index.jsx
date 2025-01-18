@@ -1,8 +1,8 @@
 // import { Box, Center, Container, Flex ,Heading,Text, VStack} from "@chakra-ui/react";
-import { Box, Button, Container, Flex, Heading, Text, Link, Tag, Image } from "@chakra-ui/react";
+import { Box, Button, Container, Flex, Heading, Text, Link, Tag, Image, Divider } from "@chakra-ui/react";
 import {ArrowForwardIcon} from "@chakra-ui/icons"
 import React from "react";
-import { Banner } from "../../constants/media/export";
+import { Banner, playBtn } from "../../constants/media/export";
 
 
 function BodyContent(){
@@ -48,14 +48,14 @@ function BodyContent(){
           mb={4}
           fontWeight="bold"
           color="gray.800"
-          maxW={{base:"70%",md:"none"}}
+          maxW={{base:"80%",md:"none"}}
         >
           Beautiful analytics to grow smarter
         </Heading>
   
      
         <Text
-          fontSize="lg"
+          fontSize={{base:"18px",md:"20px"}}
           color="gray.600"
           textAlign="center"
          width={{base:"80%",md:"45%"}} 
@@ -77,8 +77,7 @@ function BodyContent(){
             px={{base:28,md:6}}
           >
             <Flex alignItems="center" gap={2}>
-              <ArrowForwardIcon />
-              Demo
+            <Image src={playBtn}/>             Demo
             </Flex>
           </Button>
           <Button size="lg" colorScheme="red" px={{base:28,md:6}}   borderRadius="40px">
@@ -95,6 +94,7 @@ function BodyContent(){
     
   />
 </Box>
+<Divider borderColor="Gray" borderWidth="0.5px" mt="80px" width="80%" />
 
       </Container>
 

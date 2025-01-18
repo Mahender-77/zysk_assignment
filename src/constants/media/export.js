@@ -6,6 +6,14 @@ import Icon5 from "../../assets/logos/Fictional company logo (5).png"
 import Icon6 from "../../assets/logos/Fictional company logo.png"
 import Banner from "../../assets/logos/image 1.png"
 
+import chartMsg from "../../assets/logos/message-chat-circle.png"
+import thunder from "../../assets/logos/Icon.png"
+import chart from "../../assets/logos/chart-breakout-square.png"
+import emoji from  "../../assets/logos/Icon (1).png"
+import command from "../../assets/logos/command.png"
+import message from "../../assets/logos/message-heart-circle.png"
+
+import playBtn from "../../assets/logos/play-circle.png"
 
 
 export {
@@ -15,5 +23,12 @@ export {
     Icon4,
     Icon5,
     Icon6,
-    Banner
+    Banner,
+    chartMsg,
+    thunder,
+    chart,
+    emoji,
+    command,
+    message,
+    playBtn
 }

@@ -1,1 +1,0 @@
-# zysk_assignment

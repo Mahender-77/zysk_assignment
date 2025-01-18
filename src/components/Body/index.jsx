@@ -2,6 +2,7 @@
 import { Box, Button, Container, Flex, Heading, Text, Link, Tag, Image } from "@chakra-ui/react";
 import {ArrowForwardIcon} from "@chakra-ui/icons"
 import React from "react";
+import { Banner } from "../../constants/media/export";
 
 
 function BodyContent(){
@@ -66,15 +67,12 @@ function BodyContent(){
         </Text>
   
       
-        <Flex alignItems="center" justifyContent="center" flexDirection={{base:"column",md:"row"}}  gap={4} flexWrap="wrap">
+        <Flex alignItems="center" justifyContent="center" flexDirection={{base:"row",md:"row",sm:"column-reverse"}}  gap={4} flexWrap="wrap">
           <Button
             variant="outline"
             size="lg"
-           
             colorScheme="gray"
             borderWidth="2px"
-         
-           
             px={{base:28,md:6}}
           >
             <Flex alignItems="center" gap={2}>
@@ -91,7 +89,7 @@ function BodyContent(){
   <Image 
     objectFit="cover" 
     width="100%"
-    src="https://img.freepik.com/free-vector/chatbot-technology-isometric-icons-interface-set_107791-140.jpg?t=st=1737189750~exp=1737193350~hmac=5e89e2d0afc6e0ba64d81512f61b2100396afd17e75b960334c2babfd1528fe5&w=2000" 
+    src={Banner}
     alt="Image" 
   />
 </Box>

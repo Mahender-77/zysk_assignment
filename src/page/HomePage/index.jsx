@@ -1,5 +1,5 @@
-import BodyContent from "../../components/body/BodyContent"
-import Navbar from "../../components/navbar/Index"
+import BodyContent from "../../components/Body"
+import Navbar from "../../components/Navbar"
 
 
 

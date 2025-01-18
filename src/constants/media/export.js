@@ -1,10 +1,11 @@
 import Icon1 from "../../assets/logos/Fictional company logo (1) copy 2.png"
-import Icon2 from "../../assets/logos/Fictional company logo (1) copy 3.png"
-import Icon3 from "../../assets/logos/Fictional company logo (1) copy 4.png"
-import Icon4 from "../../assets/logos/Fictional company logo (1) copy.png"
-import Icon5 from "../../assets/logos/Fictional company logo (1).png"
+import Icon2 from "../../assets/logos/Fictional company logo (3).png"
+import Icon3 from "../../assets/logos/Fictional company logo (6).png"
+import Icon4 from "../../assets/logos/Fictional company logo (4).png"
+import Icon5 from "../../assets/logos/Fictional company logo (5).png"
 import Icon6 from "../../assets/logos/Fictional company logo.png"
 import Banner from "../../assets/logos/image 1.png"
+
 
 
 export {

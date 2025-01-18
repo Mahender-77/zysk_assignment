@@ -53,14 +53,14 @@ function BodyContent(){
           Beautiful analytics to grow smarter
         </Heading>
   
-        {/* Subtext */}
+     
         <Text
           fontSize="lg"
           color="gray.600"
           textAlign="center"
-         maxW={{base:"70%",md:"40%"}} 
+         width={{base:"80%",md:"45%"}} 
           mb={8}
-          
+  
         >
           Powerful, self-serve product and growth analytics to help you convert,
           engage, and retain more users. Trusted by over 4,000 startups.
@@ -73,6 +73,7 @@ function BodyContent(){
             size="lg"
             colorScheme="gray"
             borderWidth="2px"
+            borderRadius="40px"
             px={{base:28,md:6}}
           >
             <Flex alignItems="center" gap={2}>
@@ -80,17 +81,18 @@ function BodyContent(){
               Demo
             </Flex>
           </Button>
-          <Button size="lg" colorScheme="red" px={{base:28,md:6}}>
+          <Button size="lg" colorScheme="red" px={{base:28,md:6}}   borderRadius="40px">
             Sign up
           </Button>
         </Flex>
 
-        <Box width="80%" height="600px" overflow="hidden" mt={10} borderTopRadius={20}>
+        <Box width="80%" height="fit-content" overflow="hidden" mt={10} borderTopRadius={20}>
   <Image 
     objectFit="cover" 
     width="100%"
     src={Banner}
     alt="Image" 
+    
   />
 </Box>
 

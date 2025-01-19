@@ -33,8 +33,8 @@
 
 3. **Start the server**
 
-   ```shell
-  npm start 
+   ``` 
+   npm start 
    ```
 
 ### Contact Information

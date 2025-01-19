@@ -1,17 +1,17 @@
 // import { Box, Center, Container, Flex ,Heading,Text, VStack} from "@chakra-ui/react";
+import { ArrowForwardIcon } from "@chakra-ui/icons";
 import {
   Box,
   Button,
   Container,
+  Divider,
   Flex,
   Heading,
-  Text,
+  Image,
   Link,
   Tag,
-  Image,
-  Divider,
+  Text,
 } from "@chakra-ui/react";
-import { ArrowForwardIcon } from "@chakra-ui/icons";
 import React from "react";
 import { Banner, playBtn } from "../../constants/media/export";
 
@@ -87,6 +87,7 @@ function BodyContent() {
           borderWidth="2px"
           borderRadius="40px"
           px={{ base: 28, md: 6 }}
+          _hover={{ bg: "violet.500" }}
         >
           <Flex alignItems="center" gap={2}>
             <Image src={playBtn} /> Demo
@@ -97,6 +98,7 @@ function BodyContent() {
           colorScheme="red"
           px={{ base: 28, md: 6 }}
           borderRadius="40px"
+          _hover={{ bg: "violet.500" }}
         >
           Sign up
         </Button>

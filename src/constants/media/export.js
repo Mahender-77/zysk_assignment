@@ -32,6 +32,8 @@ import Avround3 from "../../assets/logos/Avatar (2).png"
 
 import arrow from "../../assets/logos/arrow-up-right.png"
 
+import CompLogo from "../../assets/logos/Group 160.png"
+
 export {
     Icon1,
     Icon2,
@@ -58,5 +60,6 @@ export {
     Avround1,
     Avround2,
     Avround3,
-    arrow
+    arrow,
+    CompLogo
 }

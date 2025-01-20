@@ -1,5 +1,5 @@
+import { Box, Flex, Heading, Image } from "@chakra-ui/react";
 import React from "react";
-import { Box, Image, Flex, Heading } from "@chakra-ui/react";
 import { avatar, productmangerlogo } from "../../constants/media/export";
 export const ProductMangerBox = () => {
   return (

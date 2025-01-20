@@ -1,18 +1,18 @@
-import { Box, Flex, Heading, Image } from "@chakra-ui/react";
+import { Box, Divider, Flex, Heading, Image } from "@chakra-ui/react";
 import React from "react";
 import {
-    Icon1,
-    Icon2,
-    Icon3,
-    Icon4,
-    Icon5,
-    Icon6,
+  Icon1,
+  Icon2,
+  Icon3,
+  Icon4,
+  Icon5,
+  Icon6,
 } from "../../constants/media/export";
 
 export const CompaniesContainer = () => {
   return (
     <Box
-      p="20px 80px"
+      p={{ base: "10px 20px", md: "20px 80px" }}
       display="flex"
       flexDirection="column"
       alignItems="center"
@@ -72,6 +72,7 @@ export const CompaniesContainer = () => {
           objectFit="contain"
         />
       </Flex>
+      <Divider borderColor="Gray" borderWidth="0.5px" width="90%" />
     </Box>
   );
 };

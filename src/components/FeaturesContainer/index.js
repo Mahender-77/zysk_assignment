@@ -28,18 +28,20 @@ export const FeaturesContainer = () => {
       >
         <Flex
           display="flex"
-          w="80%"
+          w={{ base: "93%", md: "80%" }}
           flexDirection="column"
           justifyContent="center"
           alignItems="center"
           gap={2}
           px={32}
         >
-          <Text color="red">Features</Text>
+          <Text color="#E63F3A" fontSize="14px">
+            Features
+          </Text>
           <Heading
             textAlign="center"
-            fontSize={{ base: "19px", md: "36px" }}
-            width={{ base: "170%", md: "100%" }}
+            fontSize={{ base: "30px", md: "36px" }}
+            width={{ base: "350%", md: "100%" }}
           >
             Analytics that feels like it's from the future
           </Heading>
@@ -66,9 +68,9 @@ export const FeaturesContainer = () => {
             flexDirection="column"
             justifyContent="center"
             alignItems="center"
-            gap={2}
+            gap={{ base: "6", md: "2" }}
           >
-            <Box border="0.5px solid Gray" p={1} borderRadius="5px" b>
+            <Box border="0.5px solid Gray" p={1} borderRadius="5px">
               {" "}
               <Image src={chartMsg} />
             </Box>
@@ -89,9 +91,9 @@ export const FeaturesContainer = () => {
             flexDirection="column"
             justifyContent="center"
             alignItems="center"
-            gap={2}
+            gap={{ base: "6", md: "2" }}
           >
-            <Box border="0.5px solid Gray" p={1} borderRadius="5px" b>
+            <Box border="0.5px solid Gray" p={1} borderRadius="5px">
               {" "}
               <Image src={thunder} />
             </Box>
@@ -112,9 +114,9 @@ export const FeaturesContainer = () => {
             flexDirection="column"
             justifyContent="center"
             alignItems="center"
-            gap={2}
+            gap={{ base: "6", md: "2" }}
           >
-            <Box border="0.5px solid Gray" p={1} borderRadius="5px" b>
+            <Box border="0.5px solid Gray" p={1} borderRadius="5px">
               {" "}
               <Image src={chart} />
             </Box>
@@ -135,9 +137,9 @@ export const FeaturesContainer = () => {
             flexDirection="column"
             justifyContent="center"
             alignItems="center"
-            gap={2}
+            gap={{ base: "6", md: "2" }}
           >
-            <Box border="0.5px solid Gray" p={1} borderRadius="5px" b>
+            <Box border="0.5px solid Gray" p={1} borderRadius="5px">
               {" "}
               <Image src={emoji} />
             </Box>
@@ -158,9 +160,9 @@ export const FeaturesContainer = () => {
             flexDirection="column"
             justifyContent="center"
             alignItems="center"
-            gap={2}
+            gap={{ base: "6", md: "2" }}
           >
-            <Box border="0.5px solid Gray" p={1} borderRadius="5px" b>
+            <Box border="0.5px solid Gray" p={1} borderRadius="5px">
               {" "}
               <Image src={command} />
             </Box>
@@ -181,9 +183,9 @@ export const FeaturesContainer = () => {
             flexDirection="column"
             justifyContent="center"
             alignItems="center"
-            gap={2}
+            gap={{ base: "6", md: "2" }}
           >
-            <Box border="0.5px solid Gray" p={1} borderRadius="5px" b>
+            <Box border="0.5px solid Gray" p={1} borderRadius="5px">
               {" "}
               <Image src={message} />
             </Box>

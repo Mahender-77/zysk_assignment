@@ -1,4 +1,14 @@
-import { Accordion, AccordionButton, AccordionItem, AccordionPanel, Box, Button, Flex, Heading, Image } from "@chakra-ui/react";
+import {
+  Accordion,
+  AccordionButton,
+  AccordionItem,
+  AccordionPanel,
+  Box,
+  Button,
+  Flex,
+  Heading,
+  Image,
+} from "@chakra-ui/react";
 import React from "react";
 import { Avatar2, Minus, Plush } from "../../constants/media/export";
 

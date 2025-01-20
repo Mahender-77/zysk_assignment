@@ -7,7 +7,7 @@ import {
   Menu,
   MenuButton,
   MenuItem,
-  MenuList
+  MenuList,
 } from "@chakra-ui/react";
 import { CompLogo, MenuIcon1, profile } from "../../constants/media/export";
 
@@ -21,7 +21,13 @@ export default function Header() {
       borderColor="gray.200"
     >
       <Flex>
-        <Flex w="68%" m="auto" align="center" justifyContent="left" gap="40px">
+        <Flex
+          w={{ base: "100%", md: "70%" }}
+          m="auto"
+          align="center"
+          justifyContent="left"
+          gap="40px"
+        >
           <Image src={CompLogo} />
 
           <Box display={{ base: "none", md: "block" }}>

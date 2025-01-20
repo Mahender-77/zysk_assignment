@@ -15,6 +15,7 @@ export const SectionContainer = () => {
           fontSize={{ base: "30px", md: "36px" }}
           fontWeight={600}
           color="#101828"
+          width={{ base: "120%" }}
         >
           Start your free trial
         </Heading>
@@ -30,7 +31,7 @@ export const SectionContainer = () => {
           alignItems="center"
           textAlign="center"
           gap="10px"
-          flexDirection={{ base: "row", md: "row", sm: "column-reverse" }}
+          flexDirection={{ base: "column-reverse", md: "row" }}
         >
           <Button
             bg="#FFFFFF"

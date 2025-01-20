@@ -1,6 +1,6 @@
 ---
 ## Deployed Link
-⭐ [Live Demo](https://zysk-assignment-mknf-ooy1aebkq-mahenders-projects-a43f2466.vercel.app/)
+⭐ [Live Demo](https://zysk-assignment-mknf-git-master-mahenders-projects-a43f2466.vercel.app/)
 ---
 
 # Zysk_Assignment

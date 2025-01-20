@@ -33,7 +33,7 @@ import Avround3 from "../../assets/logos/Avatar (2).png";
 import arrow from "../../assets/logos/arrow-up-right.png";
 
 import CompLogo from "../../assets/logos/Group 160.png";
-
+import FullImage from "../../assets/logos/fuulpage.png"
 import profile from "../../assets/logos/Dropdown.png";
 import MenuIcon1 from "../../assets/logos/menu-01.png";
 export {
@@ -66,4 +66,5 @@ export {
   CompLogo,
   profile,
   MenuIcon1,
+  FullImage
 };

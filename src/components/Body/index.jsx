@@ -4,20 +4,20 @@ import {
   Box,
   Button,
   Container,
-  Divider,
   Flex,
   Heading,
   Image,
   Link,
   Tag,
   Text,
+  useBreakpointValue,
 } from "@chakra-ui/react";
 import React from "react";
-import { Banner, playBtn } from "../../constants/media/export";
+import { Banner, FullImage, playBtn } from "../../constants/media/export";
 
 function BodyContent() {
   return (
-    <Container maxW="100%" centerContent py={10}>
+    <Container maxW="100%" centerContent py={{ base: "3", md: "10" }}>
       <Flex
         alignItems="center"
         justifyContent="center"
@@ -25,23 +25,25 @@ function BodyContent() {
         gap={2}
         flexWrap="wrap"
         borderRadius="full"
-        border="0.5px solid red"
+        border={{ base: "0.5px solid #E9D7FE", md: "0.5px solid red" }}
+        w={{ base: "90%", md: "22.2%" }}
         p={1}
-        backgroundColor="#fdf3f1"
+        backgroundColor={{ base: "#F9F5FF", md: "#fdf3f1" }}
       >
         <Tag
-          colorScheme="red"
-          variant="outline"
+          border={{ base: "0.5px solid #E9D7FE", md: "0.5px solid red" }}
+          color="red"
+          bg={{ base: "#FFFFFF", md: "#fdf3f1" }}
           px={3}
           borderRadius="full"
-          fontSize="13px"
+          fontSize={{ base: "10px", md: "13px" }}
         >
           New feature
         </Tag>
         <Link
           color="red.500"
           fontWeight="medium"
-          fontSize="sm"
+          fontSize={{ base: "13px", md: "sm" }}
           display="flex"
           alignItems="center"
           _hover={{ textDecoration: "none" }}
@@ -53,11 +55,11 @@ function BodyContent() {
       <Heading
         as="h1"
         textAlign="center"
-        size="2xl"
+        fontSize={{ base: "36px", md: "50px" }}
         mb={4}
         fontWeight="bold"
         color="gray.800"
-        maxW={{ base: "80%", md: "none" }}
+        maxW={{ base: "100%", md: "none" }}
       >
         Beautiful analytics to grow smarter
       </Heading>
@@ -66,7 +68,7 @@ function BodyContent() {
         fontSize={{ base: "18px", md: "20px" }}
         color="gray.600"
         textAlign="center"
-        width={{ base: "80%", md: "45%" }}
+        width={{ base: "100%", md: "45%" }}
         mb={8}
       >
         Powerful, self-serve product and growth analytics to help you convert,
@@ -76,17 +78,18 @@ function BodyContent() {
       <Flex
         alignItems="center"
         justifyContent="center"
-        flexDirection={{ base: "row", md: "row", sm: "column-reverse" }}
+        flexDirection={{ base: "column-reverse", md: "row" }}
         gap={4}
         flexWrap="wrap"
       >
         <Button
           variant="outline"
-          size="lg"
-          colorScheme="gray"
+          w={{ base: "343px", md: "114px" }}
+          h="48px"
+          color="#344054"
           borderWidth="2px"
           borderRadius="40px"
-          px={{ base: 28, md: 6 }}
+          px={{ base: 28, md: 4 }}
           _hover={{ bg: "violet.500" }}
         >
           <Flex alignItems="center" gap={2}>
@@ -94,9 +97,10 @@ function BodyContent() {
           </Flex>
         </Button>
         <Button
-          size="lg"
+          w={{ base: "343px", md: "114px" }}
+          h="48px"
           colorScheme="red"
-          px={{ base: 28, md: 6 }}
+          px={{ base: 28, md: 4 }}
           borderRadius="40px"
           _hover={{ bg: "violet.500" }}
         >
@@ -105,15 +109,19 @@ function BodyContent() {
       </Flex>
 
       <Box
-        width="80%"
+        width={{ base: "100%", md: "80%" }}
         height="fit-content"
         overflow="hidden"
         mt={10}
         borderTopRadius={20}
       >
-        <Image objectFit="cover" width="100%" src={Banner} alt="Image" />
+        <Image
+          objectFit="cover"
+          width="100%"
+          src={useBreakpointValue({ base: FullImage, md: Banner })}
+          alt="Image"
+        />
       </Box>
-      <Divider borderColor="Gray" borderWidth="0.5px" mt="80px" width="80%" />
     </Container>
   );
 }

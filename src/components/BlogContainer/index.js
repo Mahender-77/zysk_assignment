@@ -128,9 +128,9 @@ export const BlogContainer = () => {
         position="absolute"
         w={{ base: "80%", md: "none" }}
         top={{ base: "none", md: "0" }}
-        right={{ base: "none", md: "0" }}
+        right={{ base: "none", md: "8" }}
       >
-        <Button bg="#E63F3A" w={{ base: "343px", md: "148px" }} color="#FFFFFF">
+        <Button bg="#E63F3A" w={{ base: "343px", md: "148px" }} ml={{base:"5px"}} color="#FFFFFF">
           View all posts
         </Button>
       </Flex>

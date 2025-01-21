@@ -26,7 +26,7 @@ function BodyContent() {
         flexWrap="wrap"
         borderRadius="full"
         border={{ base: "0.5px solid #E9D7FE", md: "0.5px solid red" }}
-        w={{ base: "90%", md: "22.2%" }}
+        w={{ base: "90%", md: "25.2%" }}
         p={1}
         backgroundColor={{ base: "#F9F5FF", md: "#fdf3f1" }}
       >

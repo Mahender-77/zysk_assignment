@@ -22,11 +22,11 @@ function BodyContent() {
         alignItems="center"
         justifyContent="center"
         mb={6}
-        gap={2}
+        gap={6}
         flexWrap="wrap"
         borderRadius="full"
         border={{ base: "0.5px solid #E9D7FE", md: "0.5px solid red" }}
-        w={{ base: "90%", md: "25.2%" }}
+        w={{ base: "90%", md: "23.2%" }}
         p={1}
         backgroundColor={{ base: "#F9F5FF", md: "#fdf3f1" }}
       >

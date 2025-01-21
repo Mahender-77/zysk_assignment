@@ -41,7 +41,7 @@ export const FeaturesContainer = () => {
           <Heading
             textAlign="center"
             fontSize={{ base: "30px", md: "36px" }}
-            width={{ base: "300%", md: "100%" }}
+            width={{ base: "280%", md: "100%" }}
           >
             Analytics that feels like it's from the future
           </Heading>
